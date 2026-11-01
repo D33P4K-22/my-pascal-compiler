@@ -1,0 +1,9 @@
+program Addition ;
+var
+a , b , sum : integer ;
+begin
+a := 10;
+b := 20;
+sum := a + b;
+write ( sum );
+end .

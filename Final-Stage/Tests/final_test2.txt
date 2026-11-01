@@ -1,0 +1,17 @@
+program ArraySum ;
+var
+arr : array [1..5] of integer ;
+i , sum : integer ;
+begin
+arr [1] := 2;
+arr [2] := 4;
+arr [3] := 6;
+arr [4] := 8;
+arr [5] := 10;
+sum := 0;
+for i := 1 to 5 do
+begin
+sum := sum + arr [i ];
+end ;
+write ( sum );
+end .

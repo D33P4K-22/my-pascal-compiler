@@ -1,0 +1,14 @@
+PROGRAM Demo123 ;
+var
+a_1 , B : integer ; // two integers, mixed case identifier
+flag : boolean ;
+arr : array [1..5] of Real ;
+begin
+a_1 := 10 % 3;
+flag := ( a_1 >= 5) and not ( B <> 0) ;
+for a_1 := 1 to 5 do
+begin
+arr [ a_1 ] := a_1 / 2;
+end ;
+write ( "Result: " , a_1 );
+end .

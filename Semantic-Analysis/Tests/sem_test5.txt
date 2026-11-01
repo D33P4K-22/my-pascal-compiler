@@ -1,0 +1,8 @@
+program TypeMismatch ;
+var
+a : integer ;
+r : real ;
+begin
+r := 10.5;
+a := r;
+end .

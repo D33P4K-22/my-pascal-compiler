@@ -1,0 +1,8 @@
+program BadSemi ;
+var
+a , b : integer ;
+begin
+a := 5
+b := a + 1;
+write ( b);
+end .

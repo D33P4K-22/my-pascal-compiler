@@ -1,0 +1,18 @@
+program CheckEvenOdd ;
+var
+n : integer ;
+begin
+read (n);
+if n % 2 = 0 then
+begin
+write ( " Even ");
+end
+else
+begin
+write ( " Odd " );
+end ;
+while n > 0 do
+begin
+n := n - 1;
+end ;
+end .

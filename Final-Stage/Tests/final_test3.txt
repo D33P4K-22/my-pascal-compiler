@@ -1,0 +1,9 @@
+program BooleanDemo ;
+var
+a : integer ;
+flag : boolean ;
+begin
+a := 12;
+flag := a > 10;
+write ( flag ) ;
+end .

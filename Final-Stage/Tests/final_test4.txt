@@ -1,0 +1,11 @@
+program Countdown ;
+var
+n : integer ;
+begin
+n := 3;
+while n > 0 do
+begin
+write ( n);
+n := n - 1;
+end ;
+end .

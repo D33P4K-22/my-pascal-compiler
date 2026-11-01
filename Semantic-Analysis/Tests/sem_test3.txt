@@ -1,0 +1,7 @@
+program DuplicateDecl ;
+var
+a : integer ;
+a : real ;
+begin
+a := 5;
+end .

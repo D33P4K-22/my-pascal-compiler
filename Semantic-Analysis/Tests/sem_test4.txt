@@ -1,0 +1,6 @@
+program Uninitialized ;
+var
+a , b : integer ;
+begin
+b := a + 5;
+end .
